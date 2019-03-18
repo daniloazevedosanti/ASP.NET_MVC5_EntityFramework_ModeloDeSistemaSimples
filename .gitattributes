@@ -42,6 +42,9 @@
 *.yml           text eol=crlf
 
 
+Scripts/* linguist-vendored
+jquery.js linguist-vendored=false
+
 ###############################################################################
 # Set default behavior for command prompt diff.
 #
