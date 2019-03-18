@@ -10,7 +10,12 @@
 # default for csharp files.
 # Note: This is only used by command line
 ###############################################################################
-#*.cs     diff=csharp
+*.cs     diff=csharp
+special-vendored-path/* ModeloSistemaDeCadastro/Scripts
+jquery.js linguist-vendored=false
+
+*.cshtml  linguist-language = csharp
+
 
 ###############################################################################
 # Set the merge driver for project and solution files
