@@ -1,7 +1,46 @@
-###############################################################################
+##############################################################################
 # Set default behavior to automatically normalize line endings.
 ###############################################################################
 * text=auto
+*.cs     diff=csharp
+
+*.sln        text eol=crlf
+*.csproj     text eol=crlf
+*.vbproj     text eol=crlf
+*.vcxproj    text eol=crlf
+*.vcproj     text eol=crlf
+*.dbproj     text eol=crlf
+*.fsproj     text eol=crlf
+*.lsproj     text eol=crlf
+*.wixproj    text eol=crlf
+*.modelproj  text eol=crlf
+*.sqlproj    text eol=crlf
+*.wmaproj    text eol=crlf
+
+*.xproj      text eol=crlf
+*.props      text eol=crlf
+*.filters    text eol=crlf
+*.vcxitems   text eol=crlf
+
+*.css           text
+*.df            text
+*.htm           text
+*.html          text
+*.java          text
+*.js            text
+*.json          text
+*.jsp           text
+*.jspf          text
+*.jspx          text
+*.properties    text
+*.sh            text
+*.tld           text
+*.txt           text
+*.tag           text
+*.tagx          text
+*.xml           text
+*.yml           text
+
 
 ###############################################################################
 # Set default behavior for command prompt diff.
@@ -10,12 +49,7 @@
 # default for csharp files.
 # Note: This is only used by command line
 ###############################################################################
-*.cs     diff=csharp
-special-vendored-path/* ModeloSistemaDeCadastro/Scripts
-jquery.js linguist-vendored=false
-
-*.cshtml  linguist-language = csharp
-
+#*.cs     diff=csharp
 
 ###############################################################################
 # Set the merge driver for project and solution files
