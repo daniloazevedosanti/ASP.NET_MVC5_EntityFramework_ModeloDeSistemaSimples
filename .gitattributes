@@ -22,24 +22,24 @@
 *.filters    text eol=crlf
 *.vcxitems   text eol=crlf
 
-*.css           text
-*.df            text
-*.htm           text
-*.html          text
-*.java          text
-*.js            text
-*.json          text
-*.jsp           text
-*.jspf          text
-*.jspx          text
-*.properties    text
-*.sh            text
-*.tld           text
-*.txt           text
-*.tag           text
-*.tagx          text
-*.xml           text
-*.yml           text
+*.css           text eol=crlf
+*.df            text eol=crlf
+*.htm           text eol=crlf
+*.html          text eol=crlf
+*.java          text eol=crlf
+*.js            text eol=crlf
+*.json          text eol=crlf
+*.jsp           text eol=crlf
+*.jspf          text eol=crlf
+*.jspx          text eol=crlf
+*.properties    text eol=crlf
+*.sh            text eol=crlf
+*.tld           text eol=crlf
+*.txt           text eol=crlf
+*.tag           text eol=crlf
+*.tagx          text eol=crlf
+*.xml           text eol=crlf
+*.yml           text eol=crlf
 
 
 ###############################################################################
